@@ -78,8 +78,8 @@
     "webpack-dev-server": "1.16.1"
   },
   "peerDependencies": {
-    "react": "~15.4",
-    "react-addons-shallow-compare": "~15.4"
+    "react": "15.4.2",
+    "react-addons-shallow-compare": "^15.4"
   },
   "browser": {
     "./lib/server/index.js": "./lib/client/index.js"

@@ -33,7 +33,7 @@ export default class Image extends Component {
   }
 
   render() {
-    const { alt, image } = this.props;
+    const { alt, image, ...rest } = this.props;
     return (
       <img
         alt={alt}
